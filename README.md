@@ -9,4 +9,16 @@ The input dataset consists of a lot of duplicate entries. The goal of this assig
 
 >Preprocessing
 
-* The dataset
+* The date of birth column was converted to standard datetime format.
+* A list of unique dates of birth was obtained to loop over, followed by looping over a list of uniques genders.
+* The input dataset was manually processed to classify entries as either duplicate (0) or occurring for the first time (1), in order to help the model learn through accuracy score.
+
+>Levenshtein distance/score
+
+* 
+>Training model
+
+* A learning function was created for the purpose of classifying entries as either duplicate (1) or occurring for the first time (0).
+* Parameters of the learning function - training data, levenshtein_scoring_range, no. of equivalent iterations before stopping.
+* No. of equivalent iterations before stopping is the number of increments in the levenshtein score that the model makes despite no improvement in the accuracy.
+

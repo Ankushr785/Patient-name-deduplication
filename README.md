@@ -7,6 +7,8 @@
 
 The input dataset consists of a lot of duplicate entries. The goal of this assignment is to use a machine learning approach to remove those duplicate entries.
 
+The .ipynb (Jupyter notebook) file is the underlying code for this assignment. The sample input file is the provided dataset, while the sample output file is the result of the code, a a file free of duplicate entries.
+
 >Preprocessing
 
 * The date of birth column is converted to standard datetime format.

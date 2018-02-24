@@ -11,13 +11,13 @@ The input dataset consists of a lot of duplicate entries. The goal of this assig
 
 * The date of birth column is converted to standard datetime format.
 * Lists of unique dates of birth as well as unique genders are obtained.
-* The input dataset is manually processed to classify entries as either duplicate (0) or occurring for the first time (1), in order to help the model learn through evaluation. Hence, a labelled (binary) column is created.
+* The input dataset is manually processed to classify entries as either duplicate (0) or occurring for the first time (1), in order to help the model learn through evaluation. Hence, a labeled (binary) column is created.
 * The dataset is randomly divided into a training and a test set, keeping the ratio of classes/labels same in both the sets.
 
 >Levenshtein distance/score
 
-* It calculates the number of changes required to convert a string into another.
-* The only transformations allowed are deletion, substitution and insertion.
+* It calculates the number of changes required to convert one string into another (both passed as arguments).
+* The allowed transformations are deletion, substitution and insertion.
 
 >Training
 
